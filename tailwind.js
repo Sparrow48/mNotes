@@ -821,6 +821,7 @@ module.exports = {
     extend: {
       colors: {
         "feature-bg": "#2f2c3d",
+        "ui-bg": "#262431",
       },
     },
   },
