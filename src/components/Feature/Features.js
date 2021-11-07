@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 function Features() {
   return (
     <Fragment>
-      <div className="h-screen bg-indigo-800 pt-28 text-white text-center ">
+      <div className=" w-full lg:h-screen bg-indigo-800 pt-24 text-white text-center ">
         <div>
           <h1 className="lg:text-4xl text-2xl font-bold">Features</h1>
           <p>
@@ -17,7 +17,7 @@ function Features() {
             and what you do, you will be better organized!
           </p>
         </div>
-        <div className="flex justify-center space-x-10 items-center py-20">
+        <div className="flex flex-col justify-center lg:flex-row space-x-10 items-center py-20">
           <div className=" ">
             <Feature
               side={true}
