@@ -820,6 +820,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        "home-bg": "#3b31a2",
         "feature-bg": "#2f2c3d",
         "ui-bg": "#262431",
       },

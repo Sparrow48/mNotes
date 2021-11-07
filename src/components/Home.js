@@ -4,9 +4,9 @@ import { Icon } from "@iconify/react";
 
 function Home() {
   return (
-    <div className="grid sm:h-screen  p-10 md:pl-0 md:grid-cols-2 gap-16 items-center bg-blue-700 text-justify	">
-      <div className=" text-white md:pl-24 lg:pl-48 xl:pl-72  ">
-        <h1 className="lg:text-4xl text-2xl font-bold ">
+    <div className="grid items-center gap-16 p-10 text-justify sm:h-screen md:pl-0 md:grid-cols-2 bg-home-bg ">
+      <div className="text-white  md:pl-24 lg:pl-48 xl:pl-72">
+        <h1 className="text-2xl font-bold lg:text-4xl ">
           DAY PLANNER FOR <br /> PRODUCTIVE PERSON
         </h1>
         <p className="">
@@ -16,7 +16,7 @@ function Home() {
           helps you to focus on what really matters in your life.
         </p>
         <div className="m-2 mt-4">
-          <button className=" bg-green-300 hover:bg-green-700 text-indigo-bg font-bold py-2 px-6 rounded-full">
+          <button className="px-6 py-2 font-bold bg-green-300 rounded-full  hover:bg-green-700 text-indigo-bg">
             <div className="flex flex-row gap-2 ">
               <Icon icon="logos:google-play-icon" width="20" />
               <p>Button</p>
