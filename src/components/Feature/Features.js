@@ -8,17 +8,17 @@ import { Icon } from "@iconify/react";
 function Features() {
   return (
     <Fragment>
-      <div className=" w-full lg:h-screen bg-indigo-800 pt-24 text-white text-center ">
+      <div className="w-full py-24 text-center text-white bg-feature-bg">
         <div>
-          <h1 className="lg:text-4xl text-2xl font-bold">Features</h1>
+          <h1 className="text-2xl font-bold lg:text-4xl">Features</h1>
           <p>
             <strong> mNotes</strong>
             is truly usable with great user experience, no matter who you are
             and what you do, you will be better organized!
           </p>
         </div>
-        <div className="flex flex-col justify-center lg:flex-row space-x-10 items-center py-20">
-          <div className=" ">
+        <div className="flex flex-col items-center justify-center pt-20 space-x-10 lg:flex-row">
+          <div className="">
             <Feature
               side={true}
               icon={<Icon icon="bi:clock" color="white" width="22" />}
@@ -44,7 +44,7 @@ function Features() {
               details="Task lists are accessible anywhere, on any device."
             />
           </div>
-          <div className=" content-center">
+          <div className="content-center ">
             <img src={featureImg} alt="Feature_img" />
           </div>
           <div className="text-left">
@@ -89,9 +89,9 @@ export default Features;
 // function Features() {
 //   return (
 //     <Fragment>
-//       <div className="h-screen bg-indigo-800 pt-28 text-white text-center">
+//       <div className="h-screen text-center text-white bg-indigo-800 pt-28">
 //         <div>
-//           <h1 className="lg:text-4xl text-2xl font-bold">Features</h1>
+//           <h1 className="text-2xl font-bold lg:text-4xl">Features</h1>
 //           <p>
 //             <strong> mNotes</strong>
 //             is truly usable with great user experience, no matter who you are
@@ -121,7 +121,7 @@ export default Features;
 //               details="Task lists are accessible anywhere, on any device."
 //             />
 //           </div>
-//           <div className=" content-center">
+//           <div className="content-center ">
 //             <img src={featureImg} alt="Feature_img" />
 //           </div>
 //           <div>
