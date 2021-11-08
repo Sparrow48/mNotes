@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 function Features() {
   return (
     <Fragment>
-      <div className="w-full py-24 text-center text-white bg-feature-bg">
+      <div className="w-full py-24 px-10 text-center text-white bg-feature-bg">
         <div>
           <h1 className="text-2xl font-bold lg:text-4xl">Features</h1>
           <p>
@@ -27,7 +27,7 @@ function Features() {
             />
             <Feature
               side={true}
-              icon={<Icon icon="bi:clock" color="white" width="22" />}
+              icon={<Icon icon="bi:card-image" color="white" width="22" />}
               title="Image & Website"
               details="You can attach images and add URLs to any notes."
             />
@@ -46,7 +46,7 @@ function Features() {
             />
             <Feature
               side={true}
-              icon={<Icon icon="bi:clock" color="white" width="22" />}
+              icon={<Icon icon="gg:notes" color="white" width="22" />}
               title="Colorfull notes"
               details="Organize notes into different images and colors."
             />
@@ -78,13 +78,17 @@ function Features() {
             />
             <Feature
               side={false}
-              icon={<Icon icon="bi:clock" color="white" width="22" />}
+              icon={
+                <Icon icon="fa-solid:search-plus" color="white" width="22" />
+              }
               title="Search"
               details="A quick search helps to find out a particular task."
             />
             <Feature
               side={false}
-              icon={<Icon icon="bi:clock" color="white" width="22" />}
+              icon={
+                <Icon icon="carbon:cloud-offline" color="white" width="22" />
+              }
               title="Offline"
               details="Use can use this app offline."
             />
