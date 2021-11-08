@@ -10,7 +10,7 @@ function Feature(props) {
             <p>{props.details}</p>
           </div>
           <div className="order-first lg:order-last pl-10 lg:pl-0">
-            <div className="  bg-pink-600  p-3 w-12 rounded-fully rounded-full ">
+            <div className="  bg-blue-600   p-3 w-12 rounded-fully rounded-full ">
               {props.icon}
             </div>
           </div>

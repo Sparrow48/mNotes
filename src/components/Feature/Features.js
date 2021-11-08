@@ -28,49 +28,65 @@ function Features() {
             <Feature
               side={true}
               icon={<Icon icon="bi:clock" color="white" width="22" />}
-              title="A daily planner"
-              details="Task lists are accessible anywhere, on any device."
+              title="Image & Website"
+              details="You can attach images and add URLs to any notes."
+            />
+
+            <Feature
+              side={true}
+              icon={
+                <Icon
+                  icon="ic:baseline-priority-high"
+                  color="white"
+                  width="22"
+                />
+              }
+              title="Priorities"
+              details="Prioritize your tasks according to their importance."
             />
             <Feature
               side={true}
               icon={<Icon icon="bi:clock" color="white" width="22" />}
-              title="A daily planner"
-              details="Task lists are accessible anywhere, on any device."
-            />
-            <Feature
-              side={true}
-              icon={<Icon icon="bi:clock" color="white" width="22" />}
-              title="A daily planner"
-              details="Task lists are accessible anywhere, on any device."
+              title="Colorfull notes"
+              details="Organize notes into different images and colors."
             />
           </div>
           <div className="content-center ">
             <img src={featureImg} alt="Feature_img" />
           </div>
-          <div className="text-left">
+          <div className="text-left pt-10 lg:pt-0">
             <Feature
               side={false}
-              icon={<Icon icon="bi:clock" color="white" width="22" />}
-              title="A daily planner"
-              details="Task lists are accessible anywhere, on any device."
+              icon={
+                <Icon
+                  icon="fluent:clipboard-task-list-rtl-20-regular"
+                  color="white"
+                  width="22"
+                />
+              }
+              title="Task details"
+              details="Take all the details to add to any task."
+            />
+
+            <Feature
+              side={false}
+              icon={
+                <Icon icon="fa-solid:user-friends" color="white" width="22" />
+              }
+              title="User friendly"
+              details="User-friendly task management."
             />
             <Feature
               side={false}
               icon={<Icon icon="bi:clock" color="white" width="22" />}
-              title="A daily planner"
-              details="Task lists are accessible anywhere, on any device."
+              title="Search"
+              details="A quick search helps to find out a particular task."
             />
             <Feature
               side={false}
               icon={<Icon icon="bi:clock" color="white" width="22" />}
-              title="A daily planner"
-              details="Task lists are accessible anywhere, on any device."
-            />
-            <Feature
-              side={false}
-              icon={<Icon icon="bi:clock" color="white" width="22" />}
-              title="A daily planner"
-              details="Task lists are accessible anywhere, on any device."
+              title="Offline"
+              details="Use can use this app offline."
             />
           </div>
         </div>
