@@ -4,7 +4,7 @@ function Feature(props) {
   return (
     <div>
       {props.side ? (
-        <div className="flex gap-5 lg:space-x-2">
+        <div className="flex  justify-end lg:space-x-2">
           <div className=" text-left lg:text-right  pb-16 ">
             <h1 className="text-2xl">{props.title}</h1>
             <p>{props.details}</p>
